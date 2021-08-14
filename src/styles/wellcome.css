@@ -1,0 +1,174 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+}
+
+header {
+  height: 70px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-end;
+
+  margin-bottom: 30px;
+}
+
+#numberofreaders {
+  width: 350px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-direction: row;
+
+  margin-right: 2rem;
+
+  animation-duration: 0.8s;
+}
+
+#numberofreaders p {
+  font-size: 0.9rem;
+
+  font-weight: 200;
+}
+
+.container {
+  height: 60vh;
+
+  margin-left: 60px;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas:
+    "block ."
+    "block  img"
+    "btn  .";
+
+  align-items: center;
+}
+
+.block {
+  height: 40%;
+  grid-area: block;
+}
+
+#logo {
+  font-weight: 500;
+
+  color: #00c6ff;
+
+  animation-duration: 0.7s;
+
+  margin-bottom: 35px;
+}
+
+#logo p {
+  display: inline;
+
+  font-size: 1.4rem;
+  color: #00c6ff;
+}
+
+#logo p.abstract {
+  font-size: 3rem;
+  color: #fe006b;
+}
+
+.informativetext {
+  font-size: 1.4rem;
+  color: #34315e;
+
+  animation-duration: 0.5s;
+
+  grid-area: text;
+
+  font-weight: 400;
+}
+
+#illustration {
+  width: 563px;
+  height: 448px;
+  background: url("../images/book.svg");
+
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  animation-duration: 0.8s;
+
+  grid-area: img;
+
+  margin-top: 50px;
+}
+
+#illustration img {
+  object-fit: cover;
+  transform: translateY(-98px);
+
+  animation: floating 5s infinite ease-in-out;
+}
+
+#buttons {
+  width: 230px;
+
+  font-weight: 400;
+  font-size: 0.8rem;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  animation-duration: 0.7s;
+
+  grid-area: btn;
+}
+
+#buttons a {
+  border-radius: 8px;
+  padding: 5px 10px;
+  text-decoration: none;
+
+  transition: 0.2s;
+}
+
+#buttons span {
+  color: #BAB8C6;
+}
+
+.login {
+  color: #fff;
+  background: #fe006b;
+  border: solid 1px #fe006b;
+}
+
+.register {
+  color: #00c6ff;
+  border: solid 1px #00c6ff;
+}
+
+.register:hover {
+  color: #fff;
+  background: #00c6ff;
+}
+
+.login:hover {
+  color: #fe006b;
+  border: solid 1px #fe006b;
+
+  background: none;
+}
+
+@keyframes floating {
+  50% {
+    transform: translateY(-90px);
+  }
+}

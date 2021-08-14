@@ -1,0 +1,191 @@
+body {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+
+    overflow: hidden;
+}
+
+aside {
+    height: 100vh;
+    width: 50vw;
+
+    display: flex;
+}
+
+aside#img {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    position: relative;
+}
+
+aside#img > div {
+    display: flex;
+
+    justify-content: space-evenly;
+
+    width: 20vw;
+
+    position: absolute;
+
+    top: 1.5rem;
+    right: 4rem;
+
+    animation-duration: 0.8s;
+}
+
+aside#img > div button {
+   background: #E5F9FF;
+}
+
+aside#img > div #addgener{
+    border: 2px solid #BAB8C6;
+    background: transparent;
+ }
+
+ aside#img > div #addgener img {
+     width: 1rem;
+ }
+
+
+.maquina {
+    animation-duration: 0.8s;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+fieldset {
+    border: none;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+legend {
+    font-weight: 500;
+
+    font-size: 2rem;
+    color: #00c6ff;
+
+    margin-bottom: 25px;
+
+    animation-duration: 0.8s;
+}
+
+span {
+    margin-bottom: 30px;
+
+    animation-duration: 0.6s;
+}
+
+label {
+    font-weight: 300;
+    color: #3F3D56;
+    font-size: .9rem;
+}
+
+input {
+    width: 230px;
+
+    margin-top: 10px;
+
+    padding: 3px 0 3px 10px;
+    
+    color: #34315E;
+
+    border: 1px solid #BAB8C6;
+    
+    border-radius: 8px;
+    
+    outline: none;
+    
+    font-weight: 300;
+}
+
+input:focus {
+    border: 1px solid #00c6ff;
+}
+
+input:valid {
+    background: #E5F9FF;
+    color: #00C6FF;
+    border: 1px solid #00C6FF;
+}
+
+button {
+    background: #00c6ff;
+}
+
+#blockcheckbox {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 25px;
+
+    font-size: 0.7rem;
+    color: #000000;
+
+    margin-top: 10px;
+
+    animation-duration: 0.8s;
+
+    align-content: center;
+}
+
+#blockcheckbox label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#blockcheckbox label:active {
+    transform: scale(0.9);
+}
+   
+    
+#blockcheckbox div {
+    width: 70px;
+
+    text-align: center;
+    
+    padding: 4px 8px;
+
+    color: #BAB8C6;
+    border: 1px solid #BAB8C6;
+    border-radius: 8px;
+
+    font-weight: 300;
+
+    font-size: .7rem;
+}
+
+#blockcheckbox div:hover {
+    color: #00C6FF;
+    border: 1px solid #00C6FF;
+
+}
+
+
+#blockcheckbox input[type=radio]:checked ~ div {
+    background: #E5F9FF;
+    color: #00C6FF;
+    border: 1px solid #00C6FF;
+
+    animation: checkamination 0.2s;
+}
+
+#blockcheckbox input[type=radio] {
+    display: none;
+}

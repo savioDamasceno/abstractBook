@@ -1,0 +1,22 @@
+.styleButton {
+    height: 30px;
+    width: 50px;
+
+    border: none;
+    border-radius: 20px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 6px;
+
+    margin: auto;
+
+    animation-duration: 0.4s;
+}
+
+.styleButton img {
+    width: 1rem;
+}
