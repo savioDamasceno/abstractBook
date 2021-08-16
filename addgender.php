@@ -15,7 +15,7 @@
 </head>
 <body>
 <aside>
-    <form action="./creategenero.php" method="POST">
+    <form action="./creategender.php" method="POST">
       <fieldset>
         <legend class="smoothentry">Adicine um gênero literário </legend>
         <span class="smoothentry">

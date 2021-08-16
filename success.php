@@ -1,10 +1,10 @@
 <?php
 
-include "./classes/DAO/connectDB.php";
+require_once "./classes/DAO/connectDB.php";
 
-include "./classes/DAO/userDAO.php";
+require_once "./classes/DAO/userDAO.php";
 
-include "./classes/entities/user.php";
+require_once "./classes/entities/user.php";
 
 $name = $_POST['name'];
 $surname = $_POST['surname'];
