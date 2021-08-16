@@ -84,7 +84,7 @@ $listAllGenres = $literaryGenreDAO->getLiteraryGenre()
           <img src="./src/images/arrow-left.svg" draggable="false">
         </button>
       </a>
-      <a href="addgener.php">
+      <a href="addgender.php">
         <button type="button" class="clikamination styleButton" id="addgener" title="Adicione um gênero literário">
           <img src="./src/images/plus.svg" draggable="false">
         </button>
