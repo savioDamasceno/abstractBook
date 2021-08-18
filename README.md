@@ -1,4 +1,4 @@
-# **[Abstract book](https://developer.mozilla.org/pt-BR/docs/Web/CSS/border-radius)**
+# **Abstract book**
 
 ![img](https://github.com/savioDamasceno/GifsReadme/blob/main/Abstract-book-index.png?raw=true)
 
